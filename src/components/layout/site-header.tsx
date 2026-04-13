@@ -27,15 +27,15 @@ export function SiteHeader({ activeHref, links, onNavigate }: SiteHeaderProps) {
             <a
               href="#home"
               onClick={onNavigate("#home")}
-              className="flex min-w-0 items-center rounded-full focus-visible:ring-2 focus-visible:ring-ring"
+              className="inline-flex shrink-0 items-center rounded-full focus-visible:ring-2 focus-visible:ring-ring"
             >
               <Image
                 src="/antiblaze.svg"
                 alt={t("brandAlt")}
-                width={150}
-                height={42}
+                width={128}
+                height={28}
                 priority
-                className="h-10 w-auto"
+                className="h-9 w-auto ml-5"
               />
             </a>
 
@@ -52,11 +52,11 @@ export function SiteHeader({ activeHref, links, onNavigate }: SiteHeaderProps) {
                     href={link.href}
                     onClick={onNavigate(link.href)}
                     aria-current={isActive ? "page" : undefined}
-                    className={cn(
-                      "rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] transition-colors focus-visible:ring-2 focus-visible:ring-ring",
-                      isActive
-                        ? "bg-foreground text-background"
-                        : "text-muted-foreground hover:text-foreground",
+                  className={cn(
+                    "rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] transition-colors focus-visible:ring-2 focus-visible:ring-ring",
+                    isActive
+                        ? "bg-primary text-primary-foreground"
+                        : "text-muted-foreground hover:bg-primary/6 hover:text-foreground",
                     )}
                   >
                     {t(link.label)}
@@ -68,7 +68,7 @@ export function SiteHeader({ activeHref, links, onNavigate }: SiteHeaderProps) {
             <a
               href="#contact"
               onClick={onNavigate("#contact")}
-              className="inline-flex h-12 items-center justify-center rounded-full bg-foreground px-6 text-[12px] font-semibold uppercase tracking-[0.24em] text-background transition-opacity focus-visible:ring-2 focus-visible:ring-ring hover:opacity-90"
+              className="inline-flex h-12 items-center justify-center rounded-full bg-primary px-6 text-[12px] font-semibold uppercase tracking-[0.24em] text-primary-foreground transition-colors focus-visible:ring-2 focus-visible:ring-ring hover:bg-primary-strong"
             >
               {t("quoteCta")}
             </a>

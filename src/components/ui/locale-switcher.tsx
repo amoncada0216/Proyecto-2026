@@ -43,8 +43,8 @@ export function LocaleSwitcher() {
             className={cn(
               "inline-flex min-w-12 cursor-pointer items-center gap-2 rounded-full px-2.5 py-1.5 text-[11px] font-semibold tracking-[0.2em] transition-colors focus-visible:ring-2 focus-visible:ring-ring",
               isActive
-                ? "bg-foreground text-background"
-                : "text-muted-foreground hover:text-foreground",
+                ? "bg-primary text-primary-foreground"
+                : "text-muted-foreground hover:bg-primary/6 hover:text-foreground",
             )}
             onClick={() => {
               if (isActive) {

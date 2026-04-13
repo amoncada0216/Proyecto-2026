@@ -9,10 +9,10 @@ import { navLinks } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 const sectionThemes = [
-  "bg-[linear-gradient(180deg,#f7efe8_0%,#efe0d2_100%)]",
-  "bg-[linear-gradient(180deg,#efe0d2_0%,#e2c9b4_100%)]",
-  "bg-[linear-gradient(180deg,#dfc0a7_0%,#cd9f82_100%)]",
-  "bg-[linear-gradient(180deg,#c58d6b_0%,#9e684b_100%)] text-white",
+  "bg-[linear-gradient(180deg,var(--section-1-start)_0%,var(--section-1-end)_100%)] text-foreground",
+  "bg-[linear-gradient(180deg,var(--section-2-start)_0%,var(--section-2-end)_100%)] text-foreground",
+  "bg-[linear-gradient(180deg,var(--section-3-start)_0%,var(--section-3-end)_100%)] text-foreground",
+  "bg-[linear-gradient(180deg,var(--section-4-start)_0%,var(--section-4-end)_100%)] text-primary-foreground",
 ] as const;
 
 function SnapSection({

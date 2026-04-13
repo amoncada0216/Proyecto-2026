@@ -3,45 +3,94 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: oklch(0.985 0.007 84.23);
-  --foreground: oklch(0.279 0.018 52.73);
-  --surface: oklch(0.998 0.003 90.3 / 0.88);
-  --surface-strong: oklch(0.956 0.01 80.11);
-  --muted: oklch(0.95 0.008 79.46);
-  --muted-foreground: oklch(0.49 0.019 52.1);
-  --border: oklch(0.892 0.013 81.82);
-  --brand: oklch(0.664 0.149 48.91);
-  --brand-foreground: oklch(0.987 0 0);
-  --ring: oklch(0.658 0.139 49.3);
+  --primary: #080b7a;
+  --primary-strong: #05085f;
+  --primary-soft: #dbe3ff;
+  --primary-muted: #9ca8ff;
+  --primary-foreground: #f6f8ff;
+  --accent: #2844ff;
+  --accent-foreground: #f6f8ff;
+  --background: #f4f7ff;
+  --background-elevated: #ffffff;
+  --foreground: #0d1433;
+  --foreground-soft: #31406d;
+  --surface: rgb(255 255 255 / 84%);
+  --surface-strong: #e8eeff;
+  --surface-quiet: #eff3ff;
+  --muted: #e5ebff;
+  --muted-foreground: #5d6b97;
+  --border: rgb(8 11 122 / 14%);
+  --border-strong: rgb(8 11 122 / 22%);
+  --brand: var(--primary);
+  --brand-foreground: var(--primary-foreground);
+  --ring: var(--accent);
+  --section-1-start: #f4f7ff;
+  --section-1-end: #dde5ff;
+  --section-2-start: #e7edff;
+  --section-2-end: #cad6ff;
+  --section-3-start: #ccd7ff;
+  --section-3-end: #8ea2ff;
+  --section-4-start: #2036b5;
+  --section-4-end: #080b7a;
   --radius: 1.25rem;
-  --shadow-soft: 0 20px 45px -30px color-mix(in oklab, var(--foreground) 24%, transparent);
-  --shadow-panel: 0 35px 80px -42px color-mix(in oklab, var(--foreground) 28%, transparent);
+  --shadow-soft: 0 20px 45px -30px rgb(8 11 122 / 24%);
+  --shadow-panel: 0 35px 80px -42px rgb(8 11 122 / 34%);
   --section-space: clamp(4.5rem, 8vw, 7.5rem);
 }
 
 .dark {
-  --background: oklch(0.209 0.014 58.54);
-  --foreground: oklch(0.944 0.009 84.72);
-  --surface: oklch(0.258 0.014 57.98 / 0.88);
-  --surface-strong: oklch(0.308 0.012 57.12);
-  --muted: oklch(0.289 0.012 57.17);
-  --muted-foreground: oklch(0.758 0.008 82.67);
-  --border: oklch(0.376 0.01 58.34);
-  --brand: oklch(0.717 0.145 49.72);
-  --brand-foreground: oklch(0.216 0.012 58.73);
-  --ring: oklch(0.764 0.121 50.14);
+  --primary: #080b7a;
+  --primary-strong: #1624c2;
+  --primary-soft: #192657;
+  --primary-muted: #95a3ff;
+  --primary-foreground: #f6f8ff;
+  --accent: #4b63ff;
+  --accent-foreground: #f6f8ff;
+  --background: #070b1c;
+  --background-elevated: #0c1332;
+  --foreground: #edf2ff;
+  --foreground-soft: #cbd4ff;
+  --surface: rgb(12 19 50 / 84%);
+  --surface-strong: #131c46;
+  --surface-quiet: #0f173b;
+  --muted: #0f1736;
+  --muted-foreground: #9ca8d6;
+  --border: rgb(139 154 255 / 18%);
+  --border-strong: rgb(139 154 255 / 26%);
+  --brand: var(--primary);
+  --brand-foreground: var(--primary-foreground);
+  --ring: var(--accent);
+  --section-1-start: #070b1c;
+  --section-1-end: #0e173d;
+  --section-2-start: #0c1433;
+  --section-2-end: #142056;
+  --section-3-start: #13205a;
+  --section-3-end: #2036a4;
+  --section-4-start: #2742d4;
+  --section-4-end: #080b7a;
   --shadow-soft: 0 20px 45px -30px rgba(0, 0, 0, 0.6);
   --shadow-panel: 0 35px 85px -48px rgba(0, 0, 0, 0.72);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
   --color-foreground: var(--foreground);
+  --color-foreground-soft: var(--foreground-soft);
   --color-surface: var(--surface);
   --color-surface-strong: var(--surface-strong);
+  --color-surface-quiet: var(--surface-quiet);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-primary: var(--primary);
+  --color-primary-strong: var(--primary-strong);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-muted: var(--primary-muted);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
   --color-brand: var(--brand);
   --color-brand-foreground: var(--brand-foreground);
   --color-ring: var(--ring);
@@ -68,21 +117,21 @@
   body {
     @apply min-h-screen bg-background font-sans text-foreground antialiased;
     background-image:
-      radial-gradient(circle at top left, color-mix(in oklab, var(--brand) 18%, transparent) 0, transparent 36%),
-      radial-gradient(circle at 82% 10%, color-mix(in oklab, var(--surface-strong) 88%, transparent) 0, transparent 26%),
-      linear-gradient(180deg, var(--background) 0%, color-mix(in oklab, var(--background) 96%, white) 100%);
+      radial-gradient(circle at top left, rgb(8 11 122 / 16%) 0, transparent 34%),
+      radial-gradient(circle at 82% 10%, rgb(40 68 255 / 10%) 0, transparent 24%),
+      linear-gradient(180deg, var(--background) 0%, color-mix(in srgb, var(--background) 92%, white) 100%);
   }
 
   .dark body {
     background-image:
-      radial-gradient(circle at top left, color-mix(in oklab, var(--brand) 22%, transparent) 0, transparent 34%),
-      radial-gradient(circle at 82% 10%, color-mix(in oklab, white 4%, transparent) 0, transparent 24%),
-      linear-gradient(180deg, var(--background) 0%, color-mix(in oklab, var(--background) 90%, black) 100%);
+      radial-gradient(circle at top left, rgb(75 99 255 / 16%) 0, transparent 32%),
+      radial-gradient(circle at 82% 10%, rgb(8 11 122 / 26%) 0, transparent 24%),
+      linear-gradient(180deg, var(--background) 0%, color-mix(in srgb, var(--background) 86%, black) 100%);
   }
 
   ::selection {
-    background: color-mix(in oklab, var(--brand) 22%, transparent);
-    color: var(--foreground);
+    background: color-mix(in srgb, var(--primary) 18%, transparent);
+    color: var(--primary-foreground);
   }
 
   :focus-visible {
