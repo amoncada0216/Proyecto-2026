@@ -9,6 +9,7 @@ import { siteConfig } from "@/lib/constants";
 import { ClientProviders } from "@/providers/client-providers";
 import "@/styles/globals.css";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
@@ -38,8 +39,7 @@ export async function generateMetadata({
 }: MetadataProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
-  const canonicalPath =
-    locale === routing.defaultLocale ? "/" : `/${locale}`;
+  const canonicalPath = `${basePath}/${locale}`;
 
   return {
     title: t("title"),
@@ -48,8 +48,8 @@ export async function generateMetadata({
     alternates: {
       canonical: canonicalPath,
       languages: {
-        es: "/",
-        en: "/en",
+        es: `${basePath}/es`,
+        en: `${basePath}/en`,
       },
     },
   };

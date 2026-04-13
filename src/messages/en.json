@@ -27,9 +27,34 @@
     },
     "sections": {
       "section1": {
-        "eyebrow": "Home",
-        "title": "Antiblaze",
-        "description": "Full-page vertical snap section with a fixed navbar and active section tracking."
+        "eyebrow": "Fire protection",
+        "titleLogoAlt": "Antiblaze logo",
+        "title": "The new generation of protection for roofing systems.",
+        "description": "The evolution from <brand>Duralfoil®</brand> becomes a clearer, more current proposition that can communicate technical value from the first screen.",
+        "primaryCta": "Request a Quote",
+        "secondaryCta": "Explore the Product",
+        "stats": {
+          "stat1": {
+            "label": "years protecting",
+            "value": "29+",
+            "description": "projects across Colombia"
+          },
+          "stat2": {
+            "label": "clients who trusted",
+            "value": "2,500+",
+            "description": "our solution"
+          },
+          "stat3": {
+            "label": "main cities",
+            "value": "12+",
+            "description": "served"
+          },
+          "stat4": {
+            "label": "project types",
+            "value": "6+",
+            "description": "covered"
+          }
+        }
       },
       "section2": {
         "eyebrow": "About",

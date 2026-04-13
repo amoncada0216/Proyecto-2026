@@ -6,16 +6,17 @@ import { useTransition } from "react";
 
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { withBasePath } from "@/lib/base-path";
 import { cn } from "@/lib/utils";
 
 const localeFlags = {
   es: {
     alt: "Colombian flag",
-    src: "/colombia.svg",
+    src: withBasePath("/colombia.svg"),
   },
   en: {
     alt: "Australian flag",
-    src: "/australia.svg",
+    src: withBasePath("/australia.svg"),
   },
 } as const;
 
@@ -41,7 +42,7 @@ export function LocaleSwitcher() {
             aria-label={t(`options.${nextLocale}`)}
             disabled={isPending && !isActive}
             className={cn(
-              "inline-flex min-w-12 cursor-pointer items-center gap-2 rounded-full px-2.5 py-1.5 text-[11px] font-semibold tracking-[0.2em] transition-colors focus-visible:ring-2 focus-visible:ring-ring",
+              "inline-flex min-w-12 cursor-pointer items-center gap-2 rounded-full px-2.5 py-1.5 text-[0.6875rem] font-semibold tracking-[0.2em] transition-colors focus-visible:ring-2 focus-visible:ring-ring",
               isActive
                 ? "bg-primary text-primary-foreground"
                 : "text-muted-foreground hover:bg-primary/6 hover:text-foreground",

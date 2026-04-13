@@ -27,9 +27,34 @@
     },
     "sections": {
       "section1": {
-        "eyebrow": "Inicio",
-        "title": "Antiblaze",
-        "description": "La nueva etapa de una solucion cortafuego que muchos antes conocian como Duralfoil."
+        "eyebrow": "Proteccion cortafuego",
+        "titleLogoAlt": "Logotipo de Antiblaze",
+        "title": "La nueva generación de protección para cubiertas.",
+        "description": "La evolución de <brand>Duralfoil®</brand> en una solución más moderna, más segura y mejor preparada para enfrentar las exigencias reales de la industria.",
+        "primaryCta": "Solicitar cotizacion",
+        "secondaryCta": "Ver el producto",
+        "stats": {
+          "stat1": {
+            "label": "años protegiendo",
+            "value": "29+",
+            "description": "proyectos en Colombia"
+          },
+          "stat2": {
+            "label": "clientes que confiaron",
+            "value": "2.500+",
+            "description": "en nuestra solución"
+          },
+          "stat3": {
+            "label": "ciudades principales",
+            "value": "12+",
+            "description": "atendidas"
+          },
+          "stat4": {
+            "label": "tipos de proyecto",
+            "value": "6+",
+            "description": "atendidos"
+          }
+        }
       },
       "section2": {
         "eyebrow": "Evolucion",

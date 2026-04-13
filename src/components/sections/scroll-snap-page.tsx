@@ -1,63 +1,14 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState, type MouseEvent } from "react";
 
 import { SiteHeader } from "@/components/layout/site-header";
-import { SiteShell } from "@/components/layout/site-shell";
 import { navLinks } from "@/lib/constants";
-import { cn } from "@/lib/utils";
 
-const sectionThemes = [
-  "bg-[linear-gradient(180deg,var(--section-1-start)_0%,var(--section-1-end)_100%)] text-foreground",
-  "bg-[linear-gradient(180deg,var(--section-2-start)_0%,var(--section-2-end)_100%)] text-foreground",
-  "bg-[linear-gradient(180deg,var(--section-3-start)_0%,var(--section-3-end)_100%)] text-foreground",
-  "bg-[linear-gradient(180deg,var(--section-4-start)_0%,var(--section-4-end)_100%)] text-primary-foreground",
-] as const;
-
-function SnapSection({
-  id,
-  index,
-  isLast,
-}: {
-  id: string;
-  index: number;
-  isLast: boolean;
-}) {
-  const t = useTranslations("ScrollSnap.sections");
-  const key = `section${index + 1}` as const;
-  const HeadingTag = index === 0 ? "h1" : "h2";
-
-  return (
-    <section
-      id={id}
-      className={cn(
-        "relative flex w-full items-center overflow-hidden snap-start",
-        isLast ? "min-h-screen" : "h-screen snap-always",
-        sectionThemes[index],
-      )}
-    >
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.3),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(0,0,0,0.14),transparent_30%)]"
-      />
-
-      <SiteShell className="relative flex h-full items-center py-24 sm:py-28">
-        <div className="max-w-4xl">
-          <p className="text-sm font-medium uppercase tracking-[0.32em] opacity-70">
-            {t(`${key}.eyebrow`)}
-          </p>
-          <HeadingTag className="mt-6 text-5xl font-semibold tracking-[-0.06em] sm:text-6xl md:text-7xl lg:text-8xl">
-            {t(`${key}.title`)}
-          </HeadingTag>
-          <p className="mt-6 max-w-2xl text-base leading-8 opacity-80 sm:text-lg">
-            {t(`${key}.description`)}
-          </p>
-        </div>
-      </SiteShell>
-    </section>
-  );
-}
+import { ContactSection } from "./contact-section";
+import { EvolutionSection } from "./evolution-section";
+import { HomeHeroSection } from "./home-hero-section";
+import { ProductSection } from "./product-section";
 
 export function ScrollSnapPage() {
   const scrollRef = useRef<HTMLElement | null>(null);
@@ -143,14 +94,10 @@ export function ScrollSnapPage() {
         ref={scrollRef}
         className="no-scrollbar h-screen overflow-y-scroll overscroll-none snap-y snap-mandatory scroll-smooth"
       >
-        {navLinks.map((link, index) => (
-          <SnapSection
-            key={link.id}
-            id={link.id}
-            index={index}
-            isLast={index === navLinks.length - 1}
-          />
-        ))}
+        <HomeHeroSection onNavigate={handleNavigate} />
+        <EvolutionSection />
+        <ProductSection />
+        <ContactSection />
       </main>
     </>
   );
