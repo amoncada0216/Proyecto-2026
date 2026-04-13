@@ -1,0 +1,51 @@
+{
+  "Metadata": {
+    "title": "Antiblaze | Scroll snap test",
+    "description": "Scroll-snap prototype with a fixed navbar, section tracking and full-screen vertical sections."
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "options": {
+      "es": "ES",
+      "en": "EN"
+    }
+  },
+  "ThemeToggle": {
+    "toDark": "Enable dark mode",
+    "toLight": "Enable light mode"
+  },
+  "ScrollSnap": {
+    "nav": {
+      "label": "Section navigation",
+      "brandAlt": "Antiblaze logo",
+      "eyebrow": "Evolution of Duralfoil",
+      "home": "Home",
+      "about": "About",
+      "product": "Product",
+      "contact": "Contact",
+      "quoteCta": "Request a Quote"
+    },
+    "sections": {
+      "section1": {
+        "eyebrow": "Home",
+        "title": "Antiblaze",
+        "description": "Full-page vertical snap section with a fixed navbar and active section tracking."
+      },
+      "section2": {
+        "eyebrow": "About",
+        "title": "Evolution",
+        "description": "Second full-screen snap target to reproduce the portfolio scrolling behavior."
+      },
+      "section3": {
+        "eyebrow": "Product",
+        "title": "Current Product",
+        "description": "Third full-screen snap target inside the same scroll container."
+      },
+      "section4": {
+        "eyebrow": "Contact",
+        "title": "Next Step",
+        "description": "Final section using the same snap layout and observer-based section tracking."
+      }
+    }
+  }
+}

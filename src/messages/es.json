@@ -1,0 +1,51 @@
+{
+  "Metadata": {
+    "title": "Antiblaze | Proteccion cortafuego",
+    "description": "Prototipo en espanol para la nueva web de Antiblaze, con scroll snap, navbar fija y secciones a pantalla completa."
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "options": {
+      "es": "ES",
+      "en": "EN"
+    }
+  },
+  "ThemeToggle": {
+    "toDark": "Activar modo oscuro",
+    "toLight": "Activar modo claro"
+  },
+  "ScrollSnap": {
+    "nav": {
+      "label": "Navegacion de secciones",
+      "brandAlt": "Logotipo de Antiblaze",
+      "eyebrow": "Evolucion de Duralfoil",
+      "home": "Inicio",
+      "about": "Evolucion",
+      "product": "Producto",
+      "contact": "Contacto",
+      "quoteCta": "Solicitar cotizacion"
+    },
+    "sections": {
+      "section1": {
+        "eyebrow": "Inicio",
+        "title": "Antiblaze",
+        "description": "La nueva etapa de una solucion cortafuego que muchos antes conocian como Duralfoil."
+      },
+      "section2": {
+        "eyebrow": "Evolucion",
+        "title": "De Duralfoil a Antiblaze",
+        "description": "Una evolucion clara de marca y producto, con una propuesta mas actual, mas precisa y lista para crecer."
+      },
+      "section3": {
+        "eyebrow": "Producto",
+        "title": "Proteccion cortafuego actual",
+        "description": "Esta seccion prepara el espacio para presentar beneficios, aplicaciones y el valor tecnico del producto Antiblaze."
+      },
+      "section4": {
+        "eyebrow": "Contacto",
+        "title": "Solicita una cotizacion",
+        "description": "Espacio listo para cerrar la narrativa y llevar al usuario al siguiente paso comercial con claridad."
+      }
+    }
+  }
+}
