@@ -34,68 +34,94 @@
         "title": "La nueva generación de protección para cubiertas.",
         "description": "La evolución de <brand>Duralfoil®</brand> en una solución más moderna, más segura y mejor preparada para enfrentar las exigencias reales de la industria.",
         "primaryCta": "Solicitar cotizacion",
-        "secondaryCta": "Ver la soluci\u00f3n",
+        "secondaryCta": "C\u00f3mo funciona",
+        "credibilityLine": "Soluci\u00f3n probada en entornos industriales y comerciales exigentes",
         "stats": {
           "stat1": {
-            "label": "años protegiendo",
+            "label": "A\u00f1os en cubiertas industriales",
             "value": "29+",
-            "description": "proyectos en Colombia"
+            "description": ""
           },
           "stat2": {
-            "label": "clientes que confiaron",
+            "label": "Proyectos protegidos",
             "value": "2.500+",
-            "description": "en nuestra solución"
+            "description": ""
           },
           "stat3": {
-            "label": "ciudades principales",
+            "label": "Ciudades operadas",
             "value": "12+",
-            "description": "atendidas"
+            "description": ""
           },
           "stat4": {
-            "label": "tipos de proyecto",
+            "label": "Tipos de cubierta",
             "value": "6+",
-            "description": "atendidos"
+            "description": ""
           }
         }
       },
       "section2": {
         "eyebrow": "Solución",
-        "title": "Control térmico para cubiertas exigentes",
+        "sectionTag": "Sistema reflectivo bajo cubierta",
+        "title": "Control térmico eficiente para cubiertas industriales",
         "problemLine1": "Las cubiertas absorben calor solar y lo llevan al interior.",
         "problemLine2": "Eso eleva la temperatura y afecta a las personas, la operación, el producto y la energía.",
-        "product": "Antiblaze es un aislante reflectivo bajo cubierta, fabricado con aluminio altamente reflectivo y materiales resistentes al fuego, instalado bajo cubiertas metálicas, de fibrocemento, concreto y otras.",
+        "problem": "Las cubiertas absorben calor solar y lo transfieren al interior. Esto eleva la temperatura y afecta operación, personas y costos energéticos.",
+        "installation": {
+          "label": "Instalado bajo",
+          "value": "Cubiertas metálicas, de fibrocemento, concreto y otras"
+        },
+        "applications": {
+          "label": "Aplicado en",
+          "value": "Proyectos industriales, comerciales y residenciales"
+        },
+        "product": "Antiblaze® es un aislante reflectivo instalado bajo cubierta que bloquea el calor radiante antes de que entre al espacio.",
         "howItWorks": "Reduce la transferencia de calor por radiación antes de que entre al espacio y además aporta control de humedad, vapor y apoyo acústico.",
+        "benefitsEyebrow": "¿Por qué funciona?",
         "benefit1": {
           "title": "Menor temperatura interior",
-          "description": "Reduce la ganancia de calor desde la cubierta."
+          "description": "Reduce ganancia térmica."
         },
         "benefit2": {
-          "title": "Mejor operación interior",
-          "description": "Ayuda a proteger al personal, la maquinaria y el producto."
+          "title": "Protección operativa",
+          "description": "Protege equipos y personal."
         },
         "benefit3": {
-          "title": "Control de humedad y vapor",
-          "description": "Aporta protección frente a humedad y vapor."
+          "title": "Control de humedad",
+          "description": "Reduce condensación."
         },
         "benefit4": {
           "title": "Liviana y durable",
-          "description": "Aporta desempeño sostenido con menor demanda de enfriamiento."
+          "description": "Alto desempeño a largo plazo."
         },
-        "support": "Antiblaze reúne desempeño térmico, resistencia al fuego y durabilidad en una solución práctica bajo cubierta.",
+        "support": "Antiblaze® reúne desempeño térmico, resistencia al fuego y durabilidad en una solución práctica bajo cubierta.",
         "ctaSupport": "Evalúa el impacto térmico en tu proyecto",
+        "ctaMicrocopy": "Acompañamiento rápido para definir la solución adecuada.",
         "ctaLabel": "Solicitar cotización",
         "comparisonEyebrow": "Comparación térmica",
-        "comparisonTitle": "Con y sin Antiblaze",
-        "comparisonDescription": "Espacio reservado para el diagrama térmico de cubierta.",
-        "comparisonWithoutLabel": "Sin Antiblaze",
-        "comparisonWithoutText": "Mayor ganancia térmica",
-        "comparisonWithLabel": "Con Antiblaze instalado",
-        "comparisonWithText": "Menor transferencia de calor",
+        "comparisonTitle": "Con y sin Antiblaze®",
+        "comparisonDescription": "",
+        "diagramStatus": "Imagen pendiente",
+        "comparisonWithoutLabel": "Sin Antiblaze®",
+        "comparisonWithoutText": "Alta ganancia térmica",
+        "comparisonWithLabel": "Con Antiblaze®",
+        "comparisonWithText": "Bloqueo de calor radiante",
         "diagramPlaceholder": "Espacio para diagrama",
-        "heatBarrier": "Barrera térmica",
-        "moistureBarrier": "Barrera de humedad",
-        "vaporBarrier": "Barrera de vapor",
-        "acousticAid": "Apoyo acústico"
+        "heatBarrier": {
+          "title": "Barrera térmica",
+          "subtitle": "Bloqueo de radiación"
+        },
+        "moistureBarrier": {
+          "title": "Barrera de humedad",
+          "subtitle": "Reduce condensación"
+        },
+        "vaporBarrier": {
+          "title": "Barrera de vapor",
+          "subtitle": "Mayor estabilidad interior"
+        },
+        "acousticAid": {
+          "title": "Apoyo acústico",
+          "subtitle": "Mejor confort operativo"
+        }
       },
       "section3": {
         "eyebrow": "Producto",

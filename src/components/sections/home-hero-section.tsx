@@ -133,7 +133,7 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
         initial={reduceMotion ? false : { opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={imageTransition}
-        className="pointer-events-none absolute inset-0 bg-[linear-gradient(0deg,rgba(5,8,95,0.92)_0%,rgba(8,11,122,0.78)_18%,rgba(8,11,122,0.46)_30%,transparent_58%)]"
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(5,8,95,0.74)_0%,rgba(8,11,122,0.66)_24%,rgba(8,11,122,0.38)_46%,rgba(8,11,122,0.14)_62%,transparent_78%),linear-gradient(0deg,rgba(5,8,95,0.84)_0%,rgba(8,11,122,0.62)_16%,rgba(8,11,122,0.24)_34%,transparent_58%)]"
       />
       <motion.div
         aria-hidden
@@ -199,7 +199,7 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                   : { delayChildren: 0.12, staggerChildren: 0.1 },
               },
             }}
-            className="relative max-w-[59.8rem] pl-5 sm:pl-6 md:pl-8 lg:pl-6 xl:pl-8"
+            className="relative max-w-[54rem] pl-5 sm:pl-6 md:pl-8 lg:pl-6 xl:pl-8"
           >
             <motion.div
               aria-hidden
@@ -224,7 +224,7 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                   transition: contentTransition,
                 },
               }}
-              className="mt-4 max-w-[65.4rem] text-balance text-[3.1rem] font-semibold leading-[0.92] tracking-[-0.068em] text-primary-foreground drop-shadow-[0_18px_42px_rgba(7,11,28,0.34)] sm:text-[3.85rem] md:text-[4.65rem] lg:text-[5.9rem] 2xl:max-w-[71.3rem]"
+              className="mt-7 max-w-[56rem] text-balance text-[3.1rem] font-semibold leading-[0.96] tracking-[-0.068em] text-primary-foreground drop-shadow-[0_18px_42px_rgba(7,11,28,0.34)] sm:mt-8 sm:text-[3.85rem] md:text-[4.5rem] lg:text-[5.55rem] 2xl:max-w-[60rem]"
             >
               <Image
                 src={withBasePath("/antiblaze.svg")}
@@ -246,7 +246,7 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                   transition: contentTransition,
                 },
               }}
-              className="mt-6 max-w-[31.2rem] text-[0.97rem] leading-7 text-primary-foreground/86 sm:text-base xl:text-[1.08rem] xl:leading-8"
+              className="mt-10 max-w-[28.5rem] text-[0.98rem] leading-[1.95] text-primary-foreground/88 sm:mt-11 sm:text-base xl:text-[1.05rem]"
             >
               {t.rich("description", {
                 brand: (chunks) => (
@@ -267,7 +267,7 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                   transition: contentTransition,
                 },
               }}
-              className="mt-8 flex flex-col gap-3 sm:flex-row"
+              className="mt-14 flex flex-col gap-3 sm:mt-16 sm:flex-row"
             >
               <a
                 href="#contact"
@@ -288,6 +288,7 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                 <ArrowRight className="size-[0.9rem]" aria-hidden />
               </a>
             </motion.div>
+
           </motion.div>
         </div>
       </SiteShell>
@@ -344,12 +345,14 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                       value={stat.value}
                     />
                   </p>
-                  <p className="mt-1.5 text-[0.82rem] font-medium leading-5 text-primary-foreground/88 capitalize sm:text-[0.94rem]">
+                  <p className="mt-2 text-[0.92rem] font-semibold leading-5 text-primary-foreground/92 sm:text-[1rem]">
                     {stat.label}
                   </p>
-                  <p className="text-[0.82rem] leading-5 text-primary-foreground/68 capitalize sm:text-sm">
-                    {stat.description}
-                  </p>
+                  {stat.description ? (
+                    <p className="mt-1 text-[0.8rem] leading-5 text-primary-foreground/72 sm:text-[0.85rem]">
+                      {stat.description}
+                    </p>
+                  ) : null}
                 </motion.div>
               ))}
             </div>
