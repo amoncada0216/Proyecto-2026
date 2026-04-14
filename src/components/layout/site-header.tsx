@@ -43,7 +43,7 @@ export function SiteHeader({ activeHref, links, onNavigate }: SiteHeaderProps) {
 
             <nav
               aria-label={t("label")}
-              className="hidden flex-1 items-center justify-center gap-11 md:flex"
+              className="hidden flex-1 items-center justify-center gap-7 md:flex lg:gap-9 xl:gap-11"
             >
               {links.map((link) => {
                 const isActive = activeHref === link.href;

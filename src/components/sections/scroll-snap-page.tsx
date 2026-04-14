@@ -1,18 +1,45 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState, type MouseEvent } from "react";
 
 import { SiteHeader } from "@/components/layout/site-header";
 import { navLinks } from "@/lib/constants";
 
-import { ContactSection } from "./contact-section";
-import { EvolutionSection } from "./evolution-section";
+import { EmptySection } from "./empty-section";
 import { HomeHeroSection } from "./home-hero-section";
-import { ProductSection } from "./product-section";
+import { SolutionSection } from "./solution-section";
 
 export function ScrollSnapPage() {
+  const t = useTranslations("ScrollSnap.nav");
   const scrollRef = useRef<HTMLElement | null>(null);
   const [activeHref, setActiveHref] = useState<string>(navLinks[0].href);
+  const placeholderSections = [
+    {
+      href: "#applications",
+      id: "applications",
+      title: t("applications"),
+      tone: "product" as const,
+    },
+    {
+      href: "#about",
+      id: "about",
+      title: t("about"),
+      tone: "about" as const,
+    },
+    {
+      href: "#faq",
+      id: "faq",
+      title: t("faq"),
+      tone: "product" as const,
+    },
+    {
+      href: "#contact",
+      id: "contact",
+      title: t("contact"),
+      tone: "contact" as const,
+    },
+  ];
 
   useEffect(() => {
     const scrollContainer = scrollRef.current;
@@ -95,9 +122,16 @@ export function ScrollSnapPage() {
         className="no-scrollbar h-screen overflow-y-scroll overscroll-none snap-y snap-mandatory scroll-smooth"
       >
         <HomeHeroSection onNavigate={handleNavigate} />
-        <EvolutionSection />
-        <ProductSection />
-        <ContactSection />
+        <SolutionSection onNavigate={handleNavigate} />
+        {placeholderSections.map((section, index) => (
+          <EmptySection
+            key={section.href}
+            id={section.id}
+            isLast={index === placeholderSections.length - 1}
+            title={section.title}
+            tone={section.tone}
+          />
+        ))}
       </main>
     </>
   );

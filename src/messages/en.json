@@ -20,8 +20,10 @@
       "brandAlt": "Antiblaze logo",
       "eyebrow": "Evolution of Duralfoil",
       "home": "Home",
-      "about": "About",
-      "product": "Product",
+      "solution": "Solution",
+      "applications": "Applications",
+      "about": "About Us",
+      "faq": "FAQ",
       "contact": "Contact",
       "quoteCta": "Request a Quote"
     },
@@ -32,7 +34,7 @@
         "title": "The new generation of protection for roofing systems.",
         "description": "The evolution from <brand>Duralfoil®</brand> becomes a clearer, more current proposition that can communicate technical value from the first screen.",
         "primaryCta": "Request a Quote",
-        "secondaryCta": "Explore the Product",
+        "secondaryCta": "Explore the Solution",
         "stats": {
           "stat1": {
             "label": "years protecting",
@@ -57,9 +59,43 @@
         }
       },
       "section2": {
-        "eyebrow": "About",
-        "title": "Evolution",
-        "description": "Second full-screen snap target to reproduce the portfolio scrolling behavior."
+        "eyebrow": "Solution",
+        "title": "Thermal Control for Demanding Roofs",
+        "problemLine1": "Roof systems absorb solar heat and push it indoors.",
+        "problemLine2": "That raises interior temperatures and affects people, equipment, product and energy use.",
+        "product": "Antiblaze is a reflective under-roof insulation made with highly reflective aluminum and fire-resistant materials, installed beneath metal, fiber cement, concrete and other roof types.",
+        "howItWorks": "It limits radiant heat before it enters the space, while also supporting moisture, vapor and acoustic control.",
+        "benefit1": {
+          "title": "Lower Interior Heat",
+          "description": "Reduces heat gain from the roof."
+        },
+        "benefit2": {
+          "title": "Better Operating Conditions",
+          "description": "Helps protect people, equipment and product."
+        },
+        "benefit3": {
+          "title": "Moisture and Vapor Control",
+          "description": "Adds protection against moisture and vapor."
+        },
+        "benefit4": {
+          "title": "Lightweight and Durable",
+          "description": "Built for long-term performance with lower cooling demand."
+        },
+        "support": "Antiblaze combines thermal performance, fire resistance and durability in one practical under-roof solution.",
+        "ctaSupport": "Assess the thermal impact on your project",
+        "ctaLabel": "Request a Quote",
+        "comparisonEyebrow": "Thermal comparison",
+        "comparisonTitle": "With and Without Antiblaze",
+        "comparisonDescription": "Reserved space for the roof heat-behavior diagram.",
+        "comparisonWithoutLabel": "Without Antiblaze",
+        "comparisonWithoutText": "Higher heat gain",
+        "comparisonWithLabel": "With Antiblaze installed",
+        "comparisonWithText": "Lower heat transfer",
+        "diagramPlaceholder": "Diagram placeholder",
+        "heatBarrier": "Heat barrier",
+        "moistureBarrier": "Moisture barrier",
+        "vaporBarrier": "Vapor barrier",
+        "acousticAid": "Acoustic aid"
       },
       "section3": {
         "eyebrow": "Product",

@@ -8,7 +8,7 @@ export function SiteShell({ className, ...props }: SiteShellProps) {
   return (
     <div
       className={cn(
-        "mx-auto w-full max-w-[min(95vw,1728px)] px-4 sm:px-6 lg:px-8",
+        "mx-auto w-full max-w-[1728px] px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24",
         className,
       )}
       {...props}

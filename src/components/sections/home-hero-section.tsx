@@ -199,7 +199,7 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                   : { delayChildren: 0.12, staggerChildren: 0.1 },
               },
             }}
-            className="relative max-w-[59.8rem] pl-5 sm:pl-6"
+            className="relative max-w-[59.8rem] pl-5 sm:pl-6 md:pl-8 lg:pl-6 xl:pl-8"
           >
             <motion.div
               aria-hidden
@@ -280,8 +280,8 @@ export function HomeHeroSection({ onNavigate }: HomeHeroSectionProps) {
                 {t("primaryCta")}
               </a>
               <a
-                href="#product"
-                onClick={onNavigate("#product")}
+                href="#solution"
+                onClick={onNavigate("#solution")}
                 className="inline-flex h-[2.8rem] items-center justify-center gap-2 rounded-full border border-white/24 bg-white/10 px-[1.5rem] text-[0.75rem] font-semibold uppercase tracking-[0.24em] text-primary-foreground shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] backdrop-blur-md transition-colors hover:border-white/34 hover:bg-white/14 focus-visible:ring-2 focus-visible:ring-ring"
               >
                 {t("secondaryCta")}
