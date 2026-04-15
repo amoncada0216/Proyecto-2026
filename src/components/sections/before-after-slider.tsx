@@ -10,6 +10,7 @@ import {
   type PointerEvent,
 } from "react";
 
+import { withBasePath } from "@/lib/base-path";
 import { cn } from "@/lib/utils";
 
 type SliderImageSource = {
@@ -109,6 +110,12 @@ export function BeforeAfterSlider({
   };
 
   const splitPosition = { left: `${value}%` };
+  const beforeImageSrc = before.src.startsWith("/")
+    ? withBasePath(before.src)
+    : before.src;
+  const afterImageSrc = after.src.startsWith("/")
+    ? withBasePath(after.src)
+    : after.src;
 
   return (
     <div
@@ -150,7 +157,7 @@ export function BeforeAfterSlider({
           aria-hidden
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url(${before.src})`,
+            backgroundImage: `url(${beforeImageSrc})`,
             backgroundPosition: before.backgroundPosition ?? "center",
             backgroundSize: before.backgroundSize ?? "cover",
           }}
@@ -164,7 +171,7 @@ export function BeforeAfterSlider({
           <div
             className="h-full w-full bg-cover bg-center"
             style={{
-              backgroundImage: `url(${after.src})`,
+              backgroundImage: `url(${afterImageSrc})`,
               backgroundPosition: after.backgroundPosition ?? "center",
               backgroundSize: after.backgroundSize ?? "cover",
             }}

@@ -87,14 +87,6 @@ export function ContactSection({ playKey }: ContactSectionProps) {
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.24),transparent_26%),radial-gradient(circle_at_bottom_right,rgba(8,11,122,0.1),transparent_30%)]"
       />
-      <div
-        aria-hidden
-        className="pointer-events-none absolute left-[6%] top-[18%] h-52 w-52 rounded-full bg-white/26 blur-3xl"
-      />
-      <div
-        aria-hidden
-        className="pointer-events-none absolute right-[8%] top-[22%] h-60 w-60 rounded-full bg-primary/8 blur-3xl"
-      />
 
       <SiteShell className="relative flex h-full items-center py-24 sm:py-28">
         <div
@@ -113,7 +105,7 @@ export function ContactSection({ playKey }: ContactSectionProps) {
             }
             animate={{ opacity: 1, x: 0, y: 0 }}
             transition={leftCardTransition}
-            className="rounded-[2rem] border border-border/70 bg-background-elevated/80 p-6 shadow-panel backdrop-blur-xl will-change-transform lg:p-7"
+            className="rounded-[2rem] border border-border/70 bg-background-elevated/80 p-6 shadow-panel will-change-transform lg:p-7"
           >
             <p className="text-[0.76rem] font-semibold uppercase tracking-[0.22em] text-primary/78">
               {t("eyebrow")}
@@ -238,7 +230,7 @@ export function ContactSection({ playKey }: ContactSectionProps) {
             }
             animate={{ opacity: 1, x: 0, y: 0 }}
             transition={rightCardTransition}
-            className="flex h-full flex-col rounded-[2rem] border border-border/70 bg-white/92 p-6 shadow-panel backdrop-blur-xl will-change-transform lg:p-7"
+            className="flex h-full flex-col rounded-[2rem] border border-border/70 bg-white/92 p-6 shadow-panel will-change-transform lg:p-7"
           >
             <p className="text-[0.76rem] font-semibold uppercase tracking-[0.22em] text-primary/78">
               {t("contactInfoEyebrow")}

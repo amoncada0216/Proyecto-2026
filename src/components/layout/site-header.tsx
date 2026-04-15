@@ -85,8 +85,8 @@ export function SiteHeader({ activeHref, links, onNavigate }: SiteHeaderProps) {
         </SiteShell>
       </header>
 
-      <div className="fixed bottom-4 right-4 z-50 sm:bottom-6 sm:right-6">
-        <div className="flex flex-col items-end gap-2">
+      <div className="fixed bottom-6 right-6 z-50 sm:bottom-8 sm:right-8">
+        <div className="flex flex-col items-end gap-3">
           <a
             href={whatsappHref}
             target="_blank"
