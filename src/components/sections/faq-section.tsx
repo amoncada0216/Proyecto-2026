@@ -160,133 +160,133 @@ const FAQ_CONTENT = {
     title: "Frequently Asked Questions",
   },
   es: {
-    ctaLabel: "SOLICITAR COTIZACIÃ“N",
+    ctaLabel: "SOLICITAR COTIZACI\u00d3N",
     description:
-      "Resolvemos las preguntas mÃ¡s comunes sobre funcionamiento, instalaciÃ³n, compatibilidad y beneficios de Antiblaze\u00ae.",
+      "Resolvemos las preguntas m\u00e1s comunes sobre funcionamiento, instalaci\u00f3n, compatibilidad y beneficios de Antiblaze\u00ae.",
     eyebrow: "FAQ",
     items: [
       {
         answer:
           "Antiblaze\u00ae es un aislante reflectivo que se instala bajo cubierta para ayudar a bloquear el calor radiante antes de que ingrese al espacio interior.",
         id: "faq-1",
-        question: "Â¿QuÃ© es Antiblaze\u00ae?",
+        question: "\u00bfQu\u00e9 es Antiblaze\u00ae?",
       },
       {
         answer:
-          "Funciona reflejando una parte importante de la radiaciÃ³n tÃ©rmica que recibe la cubierta. AsÃ­ reduce la transferencia de calor hacia el interior y ayuda a mejorar las condiciones tÃ©rmicas del espacio.",
+          "Funciona reflejando una parte importante de la radiaci\u00f3n t\u00e9rmica que recibe la cubierta. As\u00ed reduce la transferencia de calor hacia el interior y ayuda a mejorar las condiciones t\u00e9rmicas del espacio.",
         id: "faq-2",
-        question: "Â¿CÃ³mo funciona Antiblaze\u00ae bajo la cubierta?",
+        question: "\u00bfC\u00f3mo funciona Antiblaze\u00ae bajo la cubierta?",
       },
       {
         answer:
-          "Antiblaze\u00ae actÃºa principalmente frente al calor radiante bajo cubierta, mientras que otros sistemas pueden enfocarse mÃ¡s en resistencia tÃ©rmica por masa o espesor. Su valor estÃ¡ en controlar la ganancia tÃ©rmica desde la fuente, con una soluciÃ³n liviana y funcional.",
+          "Antiblaze\u00ae act\u00faa principalmente frente al calor radiante bajo cubierta, mientras que otros sistemas pueden enfocarse m\u00e1s en resistencia t\u00e9rmica por masa o espesor. Su valor est\u00e1 en controlar la ganancia t\u00e9rmica desde la fuente, con una soluci\u00f3n liviana y funcional.",
         id: "faq-3",
         question:
-          "Â¿QuÃ© diferencia hay entre Antiblaze\u00ae y un aislamiento tradicional?",
+          "\u00bfQu\u00e9 diferencia hay entre Antiblaze\u00ae y un aislamiento tradicional?",
       },
       {
         answer:
-          "SÃ­. Ayuda a disminuir la carga tÃ©rmica que entra desde la cubierta, lo que puede contribuir a mantener una temperatura interior mÃ¡s estable y confortable.",
+          "S\u00ed. Ayuda a disminuir la carga t\u00e9rmica que entra desde la cubierta, lo que puede contribuir a mantener una temperatura interior m\u00e1s estable y confortable.",
         id: "faq-4",
-        question: "Â¿Antiblaze\u00ae ayuda a reducir la temperatura interior?",
+        question: "\u00bfAntiblaze\u00ae ayuda a reducir la temperatura interior?",
       },
       {
         answer:
-          "SÃ­. Al reducir la ganancia de calor desde la cubierta, puede disminuir la demanda sobre sistemas de aire acondicionado y ventilaciÃ³n, ayudando a optimizar el consumo energÃ©tico.",
+          "S\u00ed. Al reducir la ganancia de calor desde la cubierta, puede disminuir la demanda sobre sistemas de aire acondicionado y ventilaci\u00f3n, ayudando a optimizar el consumo energ\u00e9tico.",
         id: "faq-5",
-        question: "Â¿Puede ayudar a disminuir el uso de aire acondicionado?",
+        question: "\u00bfPuede ayudar a disminuir el uso de aire acondicionado?",
       },
       {
         answer:
-          "Puede aplicarse en distintos tipos de cubierta, incluyendo cubiertas metÃ¡licas, de fibrocemento, concreto y otras configuraciones comunes en proyectos industriales y comerciales.",
+          "Puede aplicarse en distintos tipos de cubierta, incluyendo cubiertas met\u00e1licas, de fibrocemento, concreto y otras configuraciones comunes en proyectos industriales y comerciales.",
         id: "faq-6",
-        question: "Â¿En quÃ© tipos de cubierta se puede instalar?",
+        question: "\u00bfEn qu\u00e9 tipos de cubierta se puede instalar?",
       },
       {
         answer:
-          "SÃ­. Es especialmente Ãºtil en cubiertas metÃ¡licas, donde la radiaciÃ³n solar puede generar una alta transferencia de calor hacia el interior.",
+          "S\u00ed. Es especialmente \u00fatil en cubiertas met\u00e1licas, donde la radiaci\u00f3n solar puede generar una alta transferencia de calor hacia el interior.",
         id: "faq-7",
-        question: "Â¿Antiblaze\u00ae sirve para cubiertas metÃ¡licas?",
+        question: "\u00bfAntiblaze\u00ae sirve para cubiertas met\u00e1licas?",
       },
       {
         answer:
-          "SÃ­. Su aplicaciÃ³n puede aportar beneficios en diferentes sistemas de cubierta, siempre que se evalÃºe correctamente la soluciÃ³n segÃºn las condiciones del proyecto.",
+          "S\u00ed. Su aplicaci\u00f3n puede aportar beneficios en diferentes sistemas de cubierta, siempre que se eval\u00fae correctamente la soluci\u00f3n seg\u00fan las condiciones del proyecto.",
         id: "faq-8",
-        question: "Â¿TambiÃ©n funciona en cubiertas de fibrocemento o concreto?",
+        question: "\u00bfTambi\u00e9n funciona en cubiertas de fibrocemento o concreto?",
       },
       {
         answer:
-          "SÃ­. Antiblaze\u00ae puede ayudar a limitar fenÃ³menos de humedad y condensaciÃ³n bajo cubierta, mejorando el comportamiento general del sistema en ambientes exigentes.",
+          "S\u00ed. Antiblaze\u00ae puede ayudar a limitar fen\u00f3menos de humedad y condensaci\u00f3n bajo cubierta, mejorando el comportamiento general del sistema en ambientes exigentes.",
         id: "faq-9",
-        question: "Â¿Ayuda a controlar humedad y condensaciÃ³n?",
+        question: "\u00bfAyuda a controlar humedad y condensaci\u00f3n?",
       },
       {
         answer:
-          "SÃ­. AdemÃ¡s de sus beneficios tÃ©rmicos, puede aportar apoyo acÃºstico y contribuir a mejorar el confort interior segÃºn la configuraciÃ³n del sistema constructivo.",
+          "S\u00ed. Adem\u00e1s de sus beneficios t\u00e9rmicos, puede aportar apoyo ac\u00fastico y contribuir a mejorar el confort interior seg\u00fan la configuraci\u00f3n del sistema constructivo.",
         id: "faq-10",
-        question: "Â¿Aporta algÃºn beneficio acÃºstico?",
+        question: "\u00bfAporta alg\u00fan beneficio ac\u00fastico?",
       },
       {
         answer:
-          "SÃ­. EstÃ¡ pensada para responder a los requerimientos de desempeÃ±o de proyectos industriales y comerciales, con enfoque en eficiencia, seguridad y confiabilidad de instalaciÃ³n.",
+          "S\u00ed. Est\u00e1 pensada para responder a los requerimientos de desempe\u00f1o de proyectos industriales y comerciales, con enfoque en eficiencia, seguridad y confiabilidad de instalaci\u00f3n.",
         id: "faq-11",
         question:
-          "Â¿Es una soluciÃ³n segura para aplicaciones industriales y comerciales?",
+          "\u00bfEs una soluci\u00f3n segura para aplicaciones industriales y comerciales?",
       },
       {
         answer:
-          "No. Es una soluciÃ³n liviana, diseÃ±ada para instalarse bajo cubierta sin agregar una carga significativa al sistema estructural.",
+          "No. Es una soluci\u00f3n liviana, dise\u00f1ada para instalarse bajo cubierta sin agregar una carga significativa al sistema estructural.",
         id: "faq-12",
-        question: "Â¿Antiblaze\u00ae agrega peso importante a la estructura?",
+        question: "\u00bfAntiblaze\u00ae agrega peso importante a la estructura?",
       },
       {
         answer:
-          "EstÃ¡ diseÃ±ado para ofrecer desempeÃ±o sostenido a largo plazo cuando se instala correctamente y bajo condiciones adecuadas de uso.",
+          "Est\u00e1 dise\u00f1ado para ofrecer desempe\u00f1o sostenido a largo plazo cuando se instala correctamente y bajo condiciones adecuadas de uso.",
         id: "faq-13",
-        question: "Â¿CuÃ¡nto dura Antiblaze\u00ae?",
+        question: "\u00bfCu\u00e1nto dura Antiblaze\u00ae?",
       },
       {
         answer:
-          "En condiciones normales, su mantenimiento es mÃ­nimo. Aun asÃ­, siempre es recomendable realizar revisiones periÃ³dicas del sistema de cubierta en conjunto con el resto de la instalaciÃ³n.",
+          "En condiciones normales, su mantenimiento es m\u00ednimo. Aun as\u00ed, siempre es recomendable realizar revisiones peri\u00f3dicas del sistema de cubierta en conjunto con el resto de la instalaci\u00f3n.",
         id: "faq-14",
-        question: "Â¿Requiere mantenimiento?",
+        question: "\u00bfRequiere mantenimiento?",
       },
       {
         answer:
-          "Depende del tipo de proyecto y de las condiciones de montaje. En muchos casos, la instalaciÃ³n puede planificarse para minimizar afectaciones en la operaciÃ³n.",
+          "Depende del tipo de proyecto y de las condiciones de montaje. En muchos casos, la instalaci\u00f3n puede planificarse para minimizar afectaciones en la operaci\u00f3n.",
         id: "faq-15",
-        question: "Â¿La instalaciÃ³n interrumpe la operaciÃ³n del espacio?",
+        question: "\u00bfLa instalaci\u00f3n interrumpe la operaci\u00f3n del espacio?",
       },
       {
         answer:
-          "SÃ­. Puede instalarse tanto en proyectos nuevos como en cubiertas existentes, previo anÃ¡lisis tÃ©cnico de las condiciones del sitio.",
+          "S\u00ed. Puede instalarse tanto en proyectos nuevos como en cubiertas existentes, previo an\u00e1lisis t\u00e9cnico de las condiciones del sitio.",
         id: "faq-16",
-        question: "Â¿Se puede instalar en cubiertas existentes?",
+        question: "\u00bfSe puede instalar en cubiertas existentes?",
       },
       {
         answer:
-          "Se recomienda en bodegas, plantas industriales, centros logÃ­sticos, comercios, instalaciones institucionales y otros espacios donde el calor bajo cubierta afecte la operaciÃ³n, el confort o el consumo energÃ©tico.",
+          "Se recomienda en bodegas, plantas industriales, centros log\u00edsticos, comercios, instalaciones institucionales y otros espacios donde el calor bajo cubierta afecte la operaci\u00f3n, el confort o el consumo energ\u00e9tico.",
         id: "faq-17",
-        question: "Â¿En quÃ© tipo de proyectos se recomienda Antiblaze\u00ae?",
+        question: "\u00bfEn qu\u00e9 tipo de proyectos se recomienda Antiblaze\u00ae?",
       },
       {
         answer:
-          "SÃ­. Al reducir la transferencia de calor hacia el interior, puede contribuir a una operaciÃ³n mÃ¡s eficiente y a una menor demanda de climatizaciÃ³n.",
+          "S\u00ed. Al reducir la transferencia de calor hacia el interior, puede contribuir a una operaci\u00f3n m\u00e1s eficiente y a una menor demanda de climatizaci\u00f3n.",
         id: "faq-18",
-        question: "Â¿Antiblaze\u00ae puede ayudar a mejorar la eficiencia energÃ©tica?",
+        question: "\u00bfAntiblaze\u00ae puede ayudar a mejorar la eficiencia energ\u00e9tica?",
       },
       {
         answer:
-          "Ayuda a generar condiciones interiores mÃ¡s estables, lo que puede favorecer el confort del personal y contribuir a proteger equipos, inventario y procesos sensibles al calor.",
+          "Ayuda a generar condiciones interiores m\u00e1s estables, lo que puede favorecer el confort del personal y contribuir a proteger equipos, inventario y procesos sensibles al calor.",
         id: "faq-19",
         question:
-          "Â¿QuÃ© beneficios ofrece para equipos, producto y personal?",
+          "\u00bfQu\u00e9 beneficios ofrece para equipos, producto y personal?",
       },
       {
         answer:
-          "Puedes contactarnos para revisar las caracterÃ­sticas de tu proyecto, evaluar el tipo de cubierta y proponerte una soluciÃ³n adecuada segÃºn tus necesidades.",
+          "Puedes contactarnos para revisar las caracter\u00edsticas de tu proyecto, evaluar el tipo de cubierta y proponerte una soluci\u00f3n adecuada seg\u00fan tus necesidades.",
         id: "faq-20",
-        question: "Â¿CÃ³mo puedo solicitar una evaluaciÃ³n o cotizaciÃ³n?",
+        question: "\u00bfC\u00f3mo puedo solicitar una evaluaci\u00f3n o cotizaci\u00f3n?",
       },
     ] satisfies FAQItem[],
     title: "Preguntas Frecuentes",
